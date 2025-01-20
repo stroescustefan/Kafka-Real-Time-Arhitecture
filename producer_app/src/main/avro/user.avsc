@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "org.example",
+  "fields": [
+    {
+      "name": "name",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}

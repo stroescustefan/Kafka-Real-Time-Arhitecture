@@ -1,0 +1,6 @@
+0
+4
+kafka-streams-weather-processing-KSTREAM-AGGREGATE-STATE-STORE-0000000014-changelog 2 10
+kafka-streams-weather-processing-KSTREAM-AGGREGATE-STATE-STORE-0000000019-changelog 2 10
+kafka-streams-weather-processing-max-temperature-store-changelog 2 10
+kafka-streams-weather-processing-max-humidity-store-changelog 2 10

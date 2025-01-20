@@ -1,0 +1,184 @@
+2025/01/20-06:12:06.555956 cd98 RocksDB version: 5.18.4
+2025/01/20-06:12:06.556014 cd98 Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2025/01/20-06:12:06.556026 cd98 Compile date Mar 11 2020
+2025/01/20-06:12:06.556033 cd98 DB SUMMARY
+2025/01/20-06:12:06.556112 cd98 SST files in C:\Users\stefan\Desktop\SINC\kafka-streams\Kafka-streams-wordcount\kafka-streams-weather-processing-2\kafka-streams-weather-processing\0_0\rocksdb\max-humidity-store dir, Total Num: 0, files: 
+2025/01/20-06:12:06.556121 cd98 Write Ahead Log file in C:\Users\stefan\Desktop\SINC\kafka-streams\Kafka-streams-wordcount\kafka-streams-weather-processing-2\kafka-streams-weather-processing\0_0\rocksdb\max-humidity-store: 
+2025/01/20-06:12:06.556128 cd98                         Options.error_if_exists: 0
+2025/01/20-06:12:06.556354 cd98                       Options.create_if_missing: 1
+2025/01/20-06:12:06.556359 cd98                         Options.paranoid_checks: 1
+2025/01/20-06:12:06.556362 cd98                                     Options.env: 000002060D548F60
+2025/01/20-06:12:06.556364 cd98                                Options.info_log: 000002060D56E880
+2025/01/20-06:12:06.556367 cd98                Options.max_file_opening_threads: 16
+2025/01/20-06:12:06.556369 cd98                              Options.statistics: 0000000000000000
+2025/01/20-06:12:06.556371 cd98                               Options.use_fsync: 0
+2025/01/20-06:12:06.556374 cd98                       Options.max_log_file_size: 0
+2025/01/20-06:12:06.556376 cd98                  Options.max_manifest_file_size: 1073741824
+2025/01/20-06:12:06.556378 cd98                   Options.log_file_time_to_roll: 0
+2025/01/20-06:12:06.556381 cd98                       Options.keep_log_file_num: 1000
+2025/01/20-06:12:06.556383 cd98                    Options.recycle_log_file_num: 0
+2025/01/20-06:12:06.556386 cd98                         Options.allow_fallocate: 1
+2025/01/20-06:12:06.556388 cd98                        Options.allow_mmap_reads: 0
+2025/01/20-06:12:06.556390 cd98                       Options.allow_mmap_writes: 0
+2025/01/20-06:12:06.556399 cd98                        Options.use_direct_reads: 0
+2025/01/20-06:12:06.556402 cd98                        Options.use_direct_io_for_flush_and_compaction: 0
+2025/01/20-06:12:06.556404 cd98          Options.create_missing_column_families: 0
+2025/01/20-06:12:06.556406 cd98                              Options.db_log_dir: 
+2025/01/20-06:12:06.556409 cd98                                 Options.wal_dir: C:\Users\stefan\Desktop\SINC\kafka-streams\Kafka-streams-wordcount\kafka-streams-weather-processing-2\kafka-streams-weather-processing\0_0\rocksdb\max-humidity-store
+2025/01/20-06:12:06.556411 cd98                Options.table_cache_numshardbits: 6
+2025/01/20-06:12:06.556413 cd98                      Options.max_subcompactions: 1
+2025/01/20-06:12:06.556415 cd98                  Options.max_background_flushes: -1
+2025/01/20-06:12:06.556418 cd98                         Options.WAL_ttl_seconds: 0
+2025/01/20-06:12:06.556420 cd98                       Options.WAL_size_limit_MB: 0
+2025/01/20-06:12:06.556422 cd98             Options.manifest_preallocation_size: 4194304
+2025/01/20-06:12:06.556424 cd98                     Options.is_fd_close_on_exec: 1
+2025/01/20-06:12:06.556427 cd98                   Options.advise_random_on_open: 1
+2025/01/20-06:12:06.556429 cd98                    Options.db_write_buffer_size: 0
+2025/01/20-06:12:06.556431 cd98                    Options.write_buffer_manager: 000002060D47B680
+2025/01/20-06:12:06.556433 cd98         Options.access_hint_on_compaction_start: 1
+2025/01/20-06:12:06.556436 cd98  Options.new_table_reader_for_compaction_inputs: 0
+2025/01/20-06:12:06.556438 cd98           Options.random_access_max_buffer_size: 1048576
+2025/01/20-06:12:06.556440 cd98                      Options.use_adaptive_mutex: 0
+2025/01/20-06:12:06.556442 cd98                            Options.rate_limiter: 0000000000000000
+2025/01/20-06:12:06.556445 cd98     Options.sst_file_manager.rate_bytes_per_sec: 0
+2025/01/20-06:12:06.556448 cd98                       Options.wal_recovery_mode: 2
+2025/01/20-06:12:06.556478 cd98                  Options.enable_thread_tracking: 0
+2025/01/20-06:12:06.556482 cd98                  Options.enable_pipelined_write: 0
+2025/01/20-06:12:06.556484 cd98         Options.allow_concurrent_memtable_write: 1
+2025/01/20-06:12:06.556486 cd98      Options.enable_write_thread_adaptive_yield: 1
+2025/01/20-06:12:06.556489 cd98             Options.write_thread_max_yield_usec: 100
+2025/01/20-06:12:06.556491 cd98            Options.write_thread_slow_yield_usec: 3
+2025/01/20-06:12:06.556493 cd98                               Options.row_cache: None
+2025/01/20-06:12:06.556496 cd98                              Options.wal_filter: None
+2025/01/20-06:12:06.556498 cd98             Options.avoid_flush_during_recovery: 0
+2025/01/20-06:12:06.556501 cd98             Options.allow_ingest_behind: 0
+2025/01/20-06:12:06.556503 cd98             Options.preserve_deletes: 0
+2025/01/20-06:12:06.556505 cd98             Options.two_write_queues: 0
+2025/01/20-06:12:06.556524 cd98             Options.manual_wal_flush: 0
+2025/01/20-06:12:06.556527 cd98             Options.max_background_jobs: 20
+2025/01/20-06:12:06.556529 cd98             Options.max_background_compactions: -1
+2025/01/20-06:12:06.556531 cd98             Options.avoid_flush_during_shutdown: 0
+2025/01/20-06:12:06.556534 cd98           Options.writable_file_max_buffer_size: 1048576
+2025/01/20-06:12:06.556536 cd98             Options.delayed_write_rate : 16777216
+2025/01/20-06:12:06.556538 cd98             Options.max_total_wal_size: 0
+2025/01/20-06:12:06.556541 cd98             Options.delete_obsolete_files_period_micros: 21600000000
+2025/01/20-06:12:06.556543 cd98                   Options.stats_dump_period_sec: 600
+2025/01/20-06:12:06.556546 cd98                          Options.max_open_files: -1
+2025/01/20-06:12:06.556548 cd98                          Options.bytes_per_sync: 0
+2025/01/20-06:12:06.556550 cd98                      Options.wal_bytes_per_sync: 0
+2025/01/20-06:12:06.556552 cd98       Options.compaction_readahead_size: 0
+2025/01/20-06:12:06.556555 cd98 Compression algorithms supported:
+2025/01/20-06:12:06.556559 cd98 	kZSTD supported: 1
+2025/01/20-06:12:06.556561 cd98 	kSnappyCompression supported: 1
+2025/01/20-06:12:06.556565 cd98 	kBZip2Compression supported: 0
+2025/01/20-06:12:06.556567 cd98 	kZlibCompression supported: 1
+2025/01/20-06:12:06.556570 cd98 	kLZ4Compression supported: 1
+2025/01/20-06:12:06.556572 cd98 	kXpressCompression supported: 0
+2025/01/20-06:12:06.556574 cd98 	kLZ4HCCompression supported: 1
+2025/01/20-06:12:06.556577 cd98 	kZSTDNotFinalCompression supported: 1
+2025/01/20-06:12:06.556584 cd98 Fast CRC32 supported: Supported on x86
+2025/01/20-06:12:06.568044 cd98               Options.comparator: leveldb.BytewiseComparator
+2025/01/20-06:12:06.568056 cd98           Options.merge_operator: None
+2025/01/20-06:12:06.568059 cd98        Options.compaction_filter: None
+2025/01/20-06:12:06.568061 cd98        Options.compaction_filter_factory: None
+2025/01/20-06:12:06.568063 cd98         Options.memtable_factory: SkipListFactory
+2025/01/20-06:12:06.568066 cd98            Options.table_factory: BlockBasedTable
+2025/01/20-06:12:06.568083 cd98            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002060D7E4AC0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002060B38A660
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2025/01/20-06:12:06.568113 cd98        Options.write_buffer_size: 16777216
+2025/01/20-06:12:06.568117 cd98  Options.max_write_buffer_number: 3
+2025/01/20-06:12:06.568119 cd98          Options.compression: NoCompression
+2025/01/20-06:12:06.568121 cd98                  Options.bottommost_compression: Disabled
+2025/01/20-06:12:06.568124 cd98       Options.prefix_extractor: nullptr
+2025/01/20-06:12:06.568126 cd98   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/01/20-06:12:06.568128 cd98             Options.num_levels: 7
+2025/01/20-06:12:06.568130 cd98        Options.min_write_buffer_number_to_merge: 1
+2025/01/20-06:12:06.568132 cd98     Options.max_write_buffer_number_to_maintain: 0
+2025/01/20-06:12:06.568135 cd98            Options.bottommost_compression_opts.window_bits: -14
+2025/01/20-06:12:06.568137 cd98                  Options.bottommost_compression_opts.level: 32767
+2025/01/20-06:12:06.568139 cd98               Options.bottommost_compression_opts.strategy: 0
+2025/01/20-06:12:06.568142 cd98         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/01/20-06:12:06.568144 cd98         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/01/20-06:12:06.568146 cd98                  Options.bottommost_compression_opts.enabled: false
+2025/01/20-06:12:06.568149 cd98            Options.compression_opts.window_bits: -14
+2025/01/20-06:12:06.568151 cd98                  Options.compression_opts.level: 32767
+2025/01/20-06:12:06.568153 cd98               Options.compression_opts.strategy: 0
+2025/01/20-06:12:06.568155 cd98         Options.compression_opts.max_dict_bytes: 0
+2025/01/20-06:12:06.568157 cd98         Options.compression_opts.zstd_max_train_bytes: 0
+2025/01/20-06:12:06.568159 cd98                  Options.compression_opts.enabled: false
+2025/01/20-06:12:06.568162 cd98      Options.level0_file_num_compaction_trigger: 4
+2025/01/20-06:12:06.568164 cd98          Options.level0_slowdown_writes_trigger: 20
+2025/01/20-06:12:06.568166 cd98              Options.level0_stop_writes_trigger: 36
+2025/01/20-06:12:06.568168 cd98                   Options.target_file_size_base: 67108864
+2025/01/20-06:12:06.568170 cd98             Options.target_file_size_multiplier: 1
+2025/01/20-06:12:06.568172 cd98                Options.max_bytes_for_level_base: 268435456
+2025/01/20-06:12:06.568175 cd98 Options.level_compaction_dynamic_level_bytes: 0
+2025/01/20-06:12:06.568177 cd98          Options.max_bytes_for_level_multiplier: 10.000000
+2025/01/20-06:12:06.568181 cd98 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/01/20-06:12:06.568183 cd98 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/01/20-06:12:06.568185 cd98 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/01/20-06:12:06.568188 cd98 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/01/20-06:12:06.568190 cd98 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/01/20-06:12:06.568192 cd98 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/01/20-06:12:06.568194 cd98 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/01/20-06:12:06.568196 cd98       Options.max_sequential_skip_in_iterations: 8
+2025/01/20-06:12:06.568199 cd98                    Options.max_compaction_bytes: 1677721600
+2025/01/20-06:12:06.568201 cd98                        Options.arena_block_size: 2097152
+2025/01/20-06:12:06.568203 cd98   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/01/20-06:12:06.568205 cd98   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/01/20-06:12:06.568207 cd98       Options.rate_limit_delay_max_milliseconds: 100
+2025/01/20-06:12:06.568210 cd98                Options.disable_auto_compactions: 0
+2025/01/20-06:12:06.568213 cd98                        Options.compaction_style: kCompactionStyleUniversal
+2025/01/20-06:12:06.568216 cd98                          Options.compaction_pri: kByCompensatedSize
+2025/01/20-06:12:06.568218 cd98 Options.compaction_options_universal.size_ratio: 1
+2025/01/20-06:12:06.568221 cd98 Options.compaction_options_universal.min_merge_width: 2
+2025/01/20-06:12:06.568223 cd98 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/01/20-06:12:06.568226 cd98 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/01/20-06:12:06.568228 cd98 Options.compaction_options_universal.compression_size_percent: -1
+2025/01/20-06:12:06.568230 cd98 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/01/20-06:12:06.568233 cd98 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/01/20-06:12:06.568235 cd98 Options.compaction_options_fifo.allow_compaction: 0
+2025/01/20-06:12:06.568237 cd98 Options.compaction_options_fifo.ttl: 0
+2025/01/20-06:12:06.568239 cd98                   Options.table_properties_collectors: 
+2025/01/20-06:12:06.568241 cd98                   Options.inplace_update_support: 0
+2025/01/20-06:12:06.568243 cd98                 Options.inplace_update_num_locks: 10000
+2025/01/20-06:12:06.568246 cd98               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/01/20-06:12:06.568248 cd98   Options.memtable_huge_page_size: 0
+2025/01/20-06:12:06.568250 cd98                           Options.bloom_locality: 0
+2025/01/20-06:12:06.568252 cd98                    Options.max_successive_merges: 0
+2025/01/20-06:12:06.568255 cd98                Options.optimize_filters_for_hits: 0
+2025/01/20-06:12:06.568257 cd98                Options.paranoid_file_checks: 0
+2025/01/20-06:12:06.568259 cd98                Options.force_consistency_checks: 0
+2025/01/20-06:12:06.568261 cd98                Options.report_bg_io_stats: 0
+2025/01/20-06:12:06.568263 cd98                               Options.ttl: 0

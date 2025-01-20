@@ -1,0 +1,11 @@
+org/example/ConsumerDemo.class
+org/example/Main.class
+org/example/ProducerDemoWithCallback.class
+org/example/User$Builder.class
+org/example/ConsumerWithAvroAndSchemaRegistry.class
+org/example/WikimediaChangesProducer.class
+org/example/ConsumerDemoWithShutdown.class
+org/example/User.class
+org/example/ProducerDemoWithKeys.class
+org/example/ProducerWithAvroAndSchemaRegistry.class
+org/example/ProducerDemo.class
